@@ -3,7 +3,7 @@
  * @Author: wangchao
  * @Date: 2022-11-08 20:50:11
  */
-const CURRENCY_FORMATTER = new Intl.NumberFormat(undefined, {
+const CURRENCY_FORMATTER = new Intl.NumberFormat("en-US", {
   currency: "USD",
   style: "currency"
 });
